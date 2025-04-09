@@ -61,6 +61,7 @@ const Registration = () => {
         </select>
         <br />
         <button type="submit">Register</button>
+        <span className="login-link">Already have an account? <a href="/">Login</a></span>
       </form>
     </div>
   );

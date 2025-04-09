@@ -65,3 +65,28 @@
         width: 90%;
     }
 }
+
+.registration-form span {
+    color: #333;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.registration-form span :hover {
+    color: #0056b3;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.Registration {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.registration-title {
+    font-size: 24px;
+    margin-bottom: 15px;
+    top: auto;
+    color: #333;
+}
